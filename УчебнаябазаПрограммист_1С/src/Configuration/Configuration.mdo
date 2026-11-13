@@ -60,6 +60,7 @@
   <catalogs>Catalog.КонтактныеЛица</catalogs>
   <catalogs>Catalog.ВидыКонтактнойИнформации</catalogs>
   <catalogs>Catalog.ВидыНоменклатуры</catalogs>
+  <catalogs>Catalog.Должности</catalogs>
   <documents>Document.ЗаказКлиента</documents>
   <documents>Document.ПоступлениеНаСчет</documents>
   <documents>Document.ЭлектронноеСообщениеИсходящее</documents>

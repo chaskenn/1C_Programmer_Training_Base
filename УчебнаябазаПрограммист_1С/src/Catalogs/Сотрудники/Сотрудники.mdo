@@ -102,6 +102,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="97bd72fa-8754-4052-bedd-fa60f80846b5">
+    <name>Должнось</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должнось</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Должности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="95acda81-ef57-47f2-a80d-521fcf9bd69b">
     <producedTypes>
       <objectType typeId="b55b9eb2-4246-47e4-be58-ca7b8bd457c3" valueTypeId="90a3512f-66d9-4b96-b847-6dabab146743"/>
