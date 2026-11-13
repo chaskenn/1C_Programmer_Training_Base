@@ -113,6 +113,7 @@
     <key>ru</key>
     <value>Номенклатура</value>
   </extendedListPresentation>
+  <dataHistory>Use</dataHistory>
   <hierarchical>true</hierarchical>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>

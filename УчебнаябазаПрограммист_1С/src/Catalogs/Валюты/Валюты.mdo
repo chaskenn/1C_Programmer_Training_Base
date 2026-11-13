@@ -125,6 +125,8 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Валюты.Form.ФормаЭлемента_Управляемая</defaultObjectForm>
+  <auxiliaryObjectForm>Catalog.Валюты.Form.ФормаЭлемента_Обычная</auxiliaryObjectForm>
   <attributes uuid="dee2f31c-38ba-4efa-96c8-8903c02fbe20">
     <name>СимвольныйКод</name>
     <synonym>
@@ -160,4 +162,33 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="4a38f512-085e-4e50-bf81-3b618edbbfd4">
+    <name>ФормаЭлемента_Обычная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента обычная</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7667f1ea-eb62-4b44-8f04-d69b8f62efab">
+    <name>ФормаЭлемента_Управляемая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента управляемая</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f6279dbb-8945-4c97-86e8-03e51c860eef">
+    <name>ФормаЭлемента_Обычная2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента обычная2</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>
