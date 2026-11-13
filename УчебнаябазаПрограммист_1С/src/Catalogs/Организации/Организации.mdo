@@ -160,4 +160,56 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <tabularSections uuid="ce7e4ae3-8121-4702-83d6-e2636682640b">
+    <producedTypes>
+      <objectType typeId="4031f5f5-ab22-4249-ba5a-75a136af3526" valueTypeId="ed2301d6-6cfb-4651-8996-9fff09c2ff16"/>
+      <rowType typeId="336b43b3-9e93-4720-92c7-9f153dbd316b" valueTypeId="8768a637-5db9-4023-bd77-362a925dd41a"/>
+    </producedTypes>
+    <name>ДополнительныеРеквизиты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительные реквизиты</value>
+    </synonym>
+    <attributes uuid="f3240776-bca2-4b9a-bc1d-e1ca96984d5f">
+      <name>ДопРеквизит</name>
+      <synonym>
+        <key>ru</key>
+        <value>Доп реквизит</value>
+      </synonym>
+      <type>
+        <types>ChartOfCharacteristicTypesRef.ДополнительныеРеквизиты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameters>
+        <name>Отбор.Родитель</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>ChartOfCharacteristicTypes.ДополнительныеРеквизиты.Справочник_Организации</value>
+        </value>
+      </choiceParameters>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1daeaa66-8904-4cd4-b497-317888f7198a">
+      <name>Значение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение</value>
+      </synonym>
+      <type>
+        <types>Characteristic.ДополнительныеРеквизиты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Отбор.Владелец</name>
+        <field>Catalog.Организации.TabularSection.ДополнительныеРеквизиты.Attribute.ДопРеквизит</field>
+      </choiceParameterLinks>
+      <linkByType>
+        <field>Catalog.Организации.TabularSection.ДополнительныеРеквизиты.Attribute.ДопРеквизит</field>
+      </linkByType>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
 </mdclass:Catalog>

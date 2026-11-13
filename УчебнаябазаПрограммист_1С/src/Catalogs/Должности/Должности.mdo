@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7981c8f3-250c-4291-a678-986ad117002d">
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="32e0cdd6-9b82-4e11-baed-81d1c39d5000">
   <producedTypes>
-    <objectType typeId="1c054705-e222-4900-b5ff-2f561a32e981" valueTypeId="062903c9-7cb3-412c-8538-d3eef2434035"/>
-    <refType typeId="5965f578-ae0a-4756-9e90-96e532ec6ff6" valueTypeId="c9d6503e-9fe5-4dbe-9bc6-852b575582f8"/>
-    <selectionType typeId="d12269a2-8af1-4e1e-b0e2-09764649c30c" valueTypeId="a9d355e6-10f2-4106-a10c-1a24b00bd522"/>
-    <listType typeId="6d0eb1f5-b2cc-4eab-89d1-1d40d5080b46" valueTypeId="e2c30929-fe6e-4558-83c9-7103755ff519"/>
-    <managerType typeId="15a65bb3-0534-4db0-9195-02f358e75c87" valueTypeId="7118941d-a7ff-4433-9082-c303855ec5eb"/>
+    <objectType typeId="fd56d09c-ffe3-42c4-b849-54ab8bf07445" valueTypeId="d1b58f41-0d5c-452c-9f9b-f619f704668a"/>
+    <refType typeId="0d4ddd7a-4d62-4757-8468-0793b8d5a50d" valueTypeId="de906a1a-f9f8-466f-85a1-c9af4a8923ec"/>
+    <selectionType typeId="5717b7b2-62e3-4f91-bda4-f2dcdd8c5844" valueTypeId="0fe2f4fe-bb65-4061-96c3-bba6bbc25366"/>
+    <listType typeId="c6e951e4-626b-452f-a2fb-71590062b5a7" valueTypeId="b5aba7e6-d790-452e-91b2-e7ddb8199b2e"/>
+    <managerType typeId="415aae54-1a82-42ea-90c3-6410bbd8cdee" valueTypeId="90789d41-6164-41f2-bf39-c2b33e53e7b0"/>
   </producedTypes>
   <name>Должности</name>
   <synonym>
@@ -13,8 +13,8 @@
     <value>Должности</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.Должности.StandardAttribute.Code</inputByString>
   <inputByString>Catalog.Должности.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Должности.StandardAttribute.Code</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
@@ -23,14 +23,22 @@
     <key>ru</key>
     <value>Должность</value>
   </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Должность</value>
+  </extendedObjectPresentation>
   <listPresentation>
     <key>ru</key>
     <value>Должности</value>
   </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Должности</value>
+  </extendedListPresentation>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
-  <descriptionLength>100</descriptionLength>
+  <descriptionLength>25</descriptionLength>
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
   <checkUnique>true</checkUnique>

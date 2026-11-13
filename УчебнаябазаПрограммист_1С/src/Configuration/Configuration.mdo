@@ -24,7 +24,7 @@
   <defaultLanguage>Language.Русский</defaultLanguage>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
-  <compatibilityMode>8.3.19</compatibilityMode>
+  <compatibilityMode>8.3.18</compatibilityMode>
   <languages uuid="4e04a70b-d0df-4f33-ac7a-a02902e8badd">
     <name>Русский</name>
     <synonym>
@@ -44,6 +44,7 @@
   <constants>Constant.ВалютаРегламентированногоУчета</constants>
   <constants>Constant.ВалютаУправленческогоУчета</constants>
   <constants>Constant.АдресМагазинаМП</constants>
+  <constants>Constant.ПарольСайта</constants>
   <commonForms>CommonForm.ФормаКонстант</commonForms>
   <catalogs>Catalog.Организации</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
@@ -60,8 +61,9 @@
   <catalogs>Catalog.КонтактныеЛица</catalogs>
   <catalogs>Catalog.ВидыКонтактнойИнформации</catalogs>
   <catalogs>Catalog.ВидыНоменклатуры</catalogs>
+  <catalogs>Catalog.ЗначенияДополнительныхРеквизитов</catalogs>
   <catalogs>Catalog.Должности</catalogs>
-  <catalogs>Catalog.НоменклатураПоставщиков</catalogs>
+  <catalogs>Catalog.НоменклатураПоставщика</catalogs>
   <documents>Document.ЗаказКлиента</documents>
   <documents>Document.ПоступлениеНаСчет</documents>
   <documents>Document.ЭлектронноеСообщениеИсходящее</documents>
@@ -74,7 +76,20 @@
   <enums>Enum.СпособыУстановкиКурса</enums>
   <enums>Enum.ТипыСкладов</enums>
   <enums>Enum.ТипыКонтактнойИнформации</enums>
+  <enums>Enum.ВидыДнейКалендаря</enums>
   <dataProcessors>DataProcessor.УниверсальныеКоллекции</dataProcessors>
   <dataProcessors>DataProcessor.Циклы</dataProcessors>
   <dataProcessors>DataProcessor.ДополнительныеОператоры</dataProcessors>
+  <dataProcessors>DataProcessor.РазборВопросов2</dataProcessors>
+  <dataProcessors>DataProcessor.ЗагрузкаВыпискиБанка</dataProcessors>
+  <dataProcessors>DataProcessor.РаботаСоСправочниками</dataProcessors>
+  <dataProcessors>DataProcessor.РаботаСПВХ</dataProcessors>
+  <dataProcessors>DataProcessor.РаботаСРегистрамиСведений</dataProcessors>
+  <dataProcessors>DataProcessor.РаботаСКонстантами</dataProcessors>
+  <dataProcessors>DataProcessor.РаботаСПеречислениями</dataProcessors>
+  <informationRegisters>InformationRegister.ПроизводственныйКалендарь</informationRegisters>
+  <informationRegisters>InformationRegister.МРОТ</informationRegisters>
+  <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.СписокПроизвольныхЗначений</chartsOfCharacteristicTypes>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизиты</chartsOfCharacteristicTypes>
 </mdclass:Configuration>

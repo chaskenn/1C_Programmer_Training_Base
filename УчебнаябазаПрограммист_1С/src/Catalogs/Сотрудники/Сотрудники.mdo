@@ -102,11 +102,11 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="97bd72fa-8754-4052-bedd-fa60f80846b5">
-    <name>Должнось</name>
+  <attributes uuid="3b24c712-1086-4863-b610-7d6e731d51ac">
+    <name>Должность</name>
     <synonym>
       <key>ru</key>
-      <value>Должнось</value>
+      <value>Должность</value>
     </synonym>
     <type>
       <types>CatalogRef.Должности</types>
