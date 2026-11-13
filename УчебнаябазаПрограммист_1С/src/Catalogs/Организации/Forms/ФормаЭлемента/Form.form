@@ -38,13 +38,19 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <wrap>true</wrap>
-        <extendedEditMultipleValues>true</extendedEditMultipleValues>
         <chooseType>true</chooseType>
         <typeDomainEnabled>true</typeDomainEnabled>
         <textEdit>true</textEdit>
         <backColor xsi:type="core:ColorRef">
-          <color>Web.LemonChiffon</color>
+          <color>Style.NavigationColor</color>
         </backColor>
+        <font xsi:type="core:FontRef">
+          <font>Style.NormalTextFont</font>
+          <bold>true</bold>
+          <italic>false</italic>
+          <underline>false</underline>
+          <strikeout>false</strikeout>
+        </font>
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
@@ -82,7 +88,6 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <wrap>true</wrap>
-        <extendedEditMultipleValues>true</extendedEditMultipleValues>
         <chooseType>true</chooseType>
         <typeDomainEnabled>true</typeDomainEnabled>
         <textEdit>true</textEdit>
@@ -93,10 +98,6 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <title>
-      <key>ru</key>
-      <value>Группа1</value>
-    </title>
     <extendedTooltip>
       <name>Группа1РасширеннаяПодсказка</name>
       <id>48</id>
@@ -152,7 +153,6 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <wrap>true</wrap>
-      <extendedEditMultipleValues>true</extendedEditMultipleValues>
       <chooseType>true</chooseType>
       <typeDomainEnabled>true</typeDomainEnabled>
       <textEdit>true</textEdit>
@@ -190,10 +190,11 @@
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
     <extInfo xsi:type="form:InputFieldExtInfo">
+      <width>12</width>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
+      <horizontalStretch>false</horizontalStretch>
       <wrap>true</wrap>
-      <extendedEditMultipleValues>true</extendedEditMultipleValues>
       <chooseType>true</chooseType>
       <typeDomainEnabled>true</typeDomainEnabled>
       <textEdit>true</textEdit>
@@ -290,19 +291,11 @@
     <extInfo xsi:type="form:RadioButtonsFieldExtInfo">
       <radioButtonsType>Tumbler</radioButtonsType>
       <choiceList>
-        <presentation>
-          <key>ru</key>
-          <value>Общая</value>
-        </presentation>
         <value xsi:type="core:ReferenceValue">
           <value>Enum.СистемаНалогооблажения.EnumValue.Общая</value>
         </value>
       </choiceList>
       <choiceList>
-        <presentation>
-          <key>ru</key>
-          <value>Упрощенная</value>
-        </presentation>
         <value xsi:type="core:ReferenceValue">
           <value>Enum.СистемаНалогооблажения.EnumValue.Упрощенная</value>
         </value>
@@ -310,8 +303,8 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
-    <name>Группа2</name>
-    <id>51</id>
+    <name>ОтветственныеЛица</name>
+    <id>49</id>
     <items xsi:type="form:FormField">
       <name>Руководитель</name>
       <id>16</id>
@@ -347,7 +340,6 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <wrap>true</wrap>
-        <extendedEditMultipleValues>true</extendedEditMultipleValues>
         <chooseType>true</chooseType>
         <typeDomainEnabled>true</typeDomainEnabled>
         <textEdit>true</textEdit>
@@ -388,7 +380,6 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <wrap>true</wrap>
-        <extendedEditMultipleValues>true</extendedEditMultipleValues>
         <chooseType>true</chooseType>
         <typeDomainEnabled>true</typeDomainEnabled>
         <textEdit>true</textEdit>
@@ -403,9 +394,13 @@
       <key>ru</key>
       <value>Ответственные лица</value>
     </title>
+    <toolTip>
+      <key>ru</key>
+      <value>Ответственные лица</value>
+    </toolTip>
     <extendedTooltip>
-      <name>Группа2РасширеннаяПодсказка</name>
-      <id>52</id>
+      <name>ОтветственныеЛицаРасширеннаяПодсказка</name>
+      <id>50</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -426,8 +421,8 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
-    <name>Группа3</name>
-    <id>57</id>
+    <name>ГруппаКонтактнаяИнформация</name>
+    <id>51</id>
     <items xsi:type="form:Table">
       <name>ДополнительныеРеквизиты</name>
       <id>25</id>
@@ -511,7 +506,6 @@
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <wrap>true</wrap>
-          <extendedEditMultipleValues>true</extendedEditMultipleValues>
           <chooseType>true</chooseType>
           <typeDomainEnabled>true</typeDomainEnabled>
           <textEdit>true</textEdit>
@@ -552,7 +546,6 @@
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <wrap>true</wrap>
-          <extendedEditMultipleValues>true</extendedEditMultipleValues>
           <chooseType>true</chooseType>
           <typeDomainEnabled>true</typeDomainEnabled>
           <textEdit>true</textEdit>
@@ -682,9 +675,13 @@
       <key>ru</key>
       <value>Дополнительные реквизиты</value>
     </title>
+    <toolTip>
+      <key>ru</key>
+      <value>Группа контактная информация</value>
+    </toolTip>
     <extendedTooltip>
-      <name>Группа3РасширеннаяПодсказка</name>
-      <id>58</id>
+      <name>ГруппаКонтактнаяИнформацияРасширеннаяПодсказка</name>
+      <id>52</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>

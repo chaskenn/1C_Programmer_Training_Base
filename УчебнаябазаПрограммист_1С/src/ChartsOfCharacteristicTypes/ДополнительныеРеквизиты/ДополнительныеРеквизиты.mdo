@@ -59,6 +59,13 @@
       <code>000000011</code>
       <type/>
     </items>
+    <items id="c4b18510-469a-4b42-9989-dc0ab82a4c42">
+      <name>Справочник_Номенклатура</name>
+      <description>Справочник &quot;Номенклатура&quot;</description>
+      <isFolder>true</isFolder>
+      <code>000000013</code>
+      <type/>
+    </items>
     <items id="0f038e68-8989-43db-ad35-ea391cb48054">
       <name>Справочник_Организации</name>
       <description>Справочник &quot;Организации&quot;</description>

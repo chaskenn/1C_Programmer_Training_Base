@@ -126,6 +126,7 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Валюты.Form.ФормаЭлемента_Управляемая</defaultObjectForm>
+  <defaultListForm>Catalog.Валюты.Form.ФормаСписка</defaultListForm>
   <auxiliaryObjectForm>Catalog.Валюты.Form.ФормаЭлемента_Обычная</auxiliaryObjectForm>
   <attributes uuid="dee2f31c-38ba-4efa-96c8-8903c02fbe20">
     <name>СимвольныйКод</name>
@@ -188,6 +189,15 @@
       <value>Форма элемента обычная2</value>
     </synonym>
     <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="61b6e72f-59cc-403b-aa73-49fc1467e1df">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
