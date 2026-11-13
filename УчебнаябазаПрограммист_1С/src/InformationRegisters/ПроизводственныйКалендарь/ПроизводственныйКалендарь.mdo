@@ -69,4 +69,12 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
+  <templates uuid="01930371-1fef-4538-baac-db0f78e95877">
+    <name>ДанныеКалендаря</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные календаря</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
 </mdclass:InformationRegister>

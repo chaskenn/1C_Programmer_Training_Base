@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5e2e9578-5380-4f34-a55f-2c6bf2be107a">
-  <name>Конфигурация</name>
+  <name>УчебнаяКонфигурация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учебная конфигурация</value>
+  </synonym>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="f16d277a-1001-4942-a8b1-48c8f236ce7d"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="1539d7ee-b2ce-412c-adc7-deb3a7d02d3e"/>
   <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="ac14d2aa-fb9f-40c0-8e27-67a0525699c7"/>
@@ -12,6 +16,8 @@
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
+  <vendor>IRONSKILLS</vendor>
+  <version>1.0.0.1</version>
   <usedMobileApplicationFunctionalities>
     <functionality>
       <use>true</use>
@@ -22,6 +28,14 @@
     </functionality>
   </usedMobileApplicationFunctionalities>
   <defaultLanguage>Language.Русский</defaultLanguage>
+  <copyright>
+    <key>ru</key>
+    <value>IRONSKILLS</value>
+  </copyright>
+  <configurationInformationAddress>
+    <key>ru</key>
+    <value>https://ironskills.by/</value>
+  </configurationInformationAddress>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <compatibilityMode>8.3.18</compatibilityMode>
@@ -77,6 +91,7 @@
   <enums>Enum.ТипыСкладов</enums>
   <enums>Enum.ТипыКонтактнойИнформации</enums>
   <enums>Enum.ВидыДнейКалендаря</enums>
+  <enums>Enum.СтавкиНДС</enums>
   <dataProcessors>DataProcessor.УниверсальныеКоллекции</dataProcessors>
   <dataProcessors>DataProcessor.Циклы</dataProcessors>
   <dataProcessors>DataProcessor.ДополнительныеОператоры</dataProcessors>
@@ -87,6 +102,8 @@
   <dataProcessors>DataProcessor.РаботаСРегистрамиСведений</dataProcessors>
   <dataProcessors>DataProcessor.РаботаСКонстантами</dataProcessors>
   <dataProcessors>DataProcessor.РаботаСПеречислениями</dataProcessors>
+  <dataProcessors>DataProcessor.ПрограммнаяРаботаСОбъектами_ДомашнееЗадание</dataProcessors>
+  <dataProcessors>DataProcessor.ПрограммнаяРаботаСОбъектами_РазборЗадач</dataProcessors>
   <informationRegisters>InformationRegister.ПроизводственныйКалендарь</informationRegisters>
   <informationRegisters>InformationRegister.МРОТ</informationRegisters>
   <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
