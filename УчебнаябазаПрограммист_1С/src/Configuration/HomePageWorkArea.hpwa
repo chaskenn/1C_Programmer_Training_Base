@@ -52,6 +52,16 @@
       <height>10</height>
       <visibility/>
     </items>
+    <items>
+      <form>DataProcessor.ПроцедурыИФункцииИнтерактивнойРаботы.Form.Форма</form>
+      <height>10</height>
+      <visibility/>
+    </items>
+    <items>
+      <form>DataProcessor.ПроцедурыИФункцииИнтерактивнойРаботы_ДомашнееЗадание.Form.Форма</form>
+      <height>10</height>
+      <visibility/>
+    </items>
   </columns>
   <columns/>
 </hpwa:HomePageWorkArea>

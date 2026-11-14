@@ -7,13 +7,13 @@
   <name>ПрограммнаяРаботаСОбъектами_ДомашнееЗадание</name>
   <synonym>
     <key>ru</key>
-    <value>Программная работа со справочниками</value>
+    <value>Программная работа с объектами (ДЗ № 1)</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.ПрограммнаяРаботаСОбъектами_ДомашнееЗадание.Form.Форма</defaultForm>
   <extendedPresentation>
     <key>ru</key>
-    <value>Программная работа со справочниками</value>
+    <value>Программная работа с объектами (ДЗ № 1)</value>
   </extendedPresentation>
   <forms uuid="6fde208c-0548-4d78-b01e-61720bdacac2">
     <name>Форма</name>

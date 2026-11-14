@@ -48,7 +48,7 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Контрагенты.Form.ФормаЭлемента</defaultObjectForm>
-  <defaultListForm>Catalog.Контрагенты.Form.ФормаСписка</defaultListForm>
+  <defaultListForm>Catalog.Контрагенты.Form.ФормаСпискаДЗ</defaultListForm>
   <attributes uuid="c6507a98-ddcf-4fff-ba20-48427dcec8d5">
     <name>ВидКонтрагента</name>
     <synonym>
@@ -267,6 +267,7 @@
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
       <choiceParameterLinks>
         <name>Отбор.Тип</name>
         <field>Catalog.Контрагенты.TabularSection.КонтактнаяИнформация.Attribute.Тип</field>
@@ -379,11 +380,20 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="fd7949ce-a80f-4c06-baaf-c71a37ebf6ca">
+  <forms uuid="21a23a73-f0e8-4000-a7d6-3637aa13356b">
     <name>ФормаЭлементаДЗ</name>
     <synonym>
       <key>ru</key>
       <value>Форма элемента ДЗ</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="51f53127-8360-4c97-bde6-daa2e1e113a8">
+    <name>ФормаСпискаДЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка ДЗ</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

@@ -20,4 +20,7 @@
   <content>Catalog.ВидыНоменклатуры</content>
   <content>Catalog.НоменклатураПоставщика</content>
   <content>InformationRegister.ПроизводственныйКалендарь</content>
+  <content>Document.ЗаказПоставщику</content>
+  <content>Document.ПриходнаяНакладная</content>
+  <content>DocumentJournal.ДокументыЗакупки</content>
 </mdclass:Subsystem>

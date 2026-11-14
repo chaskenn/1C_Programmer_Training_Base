@@ -30,4 +30,9 @@
   <content>CommonCommand.ПоказатьТекущуюДату</content>
   <content>DataProcessor.ТипыДанныхФормы</content>
   <content>DataProcessor.ПрограммноеСозданиеРеквизитовИЭлементовФормы</content>
+  <content>DataProcessor.ПроцедурыИФункцииИнтерактивнойРаботы</content>
+  <content>DataProcessor.ШаблоныТекста</content>
+  <content>DataProcessor.РазборВопросов4</content>
+  <content>DataProcessor.ПроцедурыИФункцииИнтерактивнойРаботы_ДомашнееЗадание</content>
+  <content>DataProcessor.ПолучитьДвоичныеДанныеФайла</content>
 </mdclass:Subsystem>

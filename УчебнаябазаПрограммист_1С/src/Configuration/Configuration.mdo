@@ -39,6 +39,8 @@
   </configurationInformationAddress>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
   <compatibilityMode>8.3.18</compatibilityMode>
   <languages uuid="4e04a70b-d0df-4f33-ac7a-a02902e8badd">
     <name>Русский</name>
@@ -67,6 +69,9 @@
   <commonModules>CommonModule.РаботаСоСправочникамиКлиентСервер</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияКлиент</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияСервер</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияВызовСервера</commonModules>
+  <commonModules>CommonModule.УчетНДСВызовСервера</commonModules>
+  <commonModules>CommonModule.ОбработкаТабличныхЧастейКлиент</commonModules>
   <commonCommands>CommonCommand.ПоказатьТекущуюДату</commonCommands>
   <constants>Constant.ЗаголовокПрограммы</constants>
   <constants>Constant.ДатаЗапретаРедактирования</constants>
@@ -100,9 +105,11 @@
   <catalogs>Catalog.Дети</catalogs>
   <catalogs>Catalog.ИсточникиПривлечения</catalogs>
   <catalogs>Catalog.СтраныМира</catalogs>
-  <documents>Document.ЗаказКлиента</documents>
-  <documents>Document.ПоступлениеНаСчет</documents>
-  <documents>Document.ЭлектронноеСообщениеИсходящее</documents>
+  <catalogs>Catalog.НоменклатураПрисоединенныеФайлы</catalogs>
+  <documents>Document.ЗаказПоставщику</documents>
+  <documents>Document.ПриходнаяНакладная</documents>
+  <documentNumerators>DocumentNumerator.КадровыеДокументы</documentNumerators>
+  <documentJournals>DocumentJournal.ДокументыЗакупки</documentJournals>
   <enums>Enum.ПолФизическогоЛица</enums>
   <enums>Enum.СистемаНалогооблажения</enums>
   <enums>Enum.СпособыХраненияФайлов</enums>
@@ -116,6 +123,7 @@
   <enums>Enum.СтавкиНДС</enums>
   <enums>Enum.ВидыКонтрагентов</enums>
   <enums>Enum.КатегорииКонтрагентов</enums>
+  <enums>Enum.ТипыНоменклатуры</enums>
   <dataProcessors>DataProcessor.УниверсальныеКоллекции</dataProcessors>
   <dataProcessors>DataProcessor.Циклы</dataProcessors>
   <dataProcessors>DataProcessor.ДополнительныеОператоры</dataProcessors>
@@ -136,6 +144,11 @@
   <dataProcessors>DataProcessor.УправляемаяФорма</dataProcessors>
   <dataProcessors>DataProcessor.ТипыДанныхФормы</dataProcessors>
   <dataProcessors>DataProcessor.ПрограммноеСозданиеРеквизитовИЭлементовФормы</dataProcessors>
+  <dataProcessors>DataProcessor.ПроцедурыИФункцииИнтерактивнойРаботы</dataProcessors>
+  <dataProcessors>DataProcessor.ШаблоныТекста</dataProcessors>
+  <dataProcessors>DataProcessor.РазборВопросов4</dataProcessors>
+  <dataProcessors>DataProcessor.ПроцедурыИФункцииИнтерактивнойРаботы_ДомашнееЗадание</dataProcessors>
+  <dataProcessors>DataProcessor.ПолучитьДвоичныеДанныеФайла</dataProcessors>
   <informationRegisters>InformationRegister.ПроизводственныйКалендарь</informationRegisters>
   <informationRegisters>InformationRegister.МРОТ</informationRegisters>
   <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>

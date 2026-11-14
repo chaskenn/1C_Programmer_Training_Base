@@ -7,8 +7,8 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <content>Document.ЗаказКлиента</content>
-  <content>Document.ПоступлениеНаСчет</content>
-  <content>Document.ЭлектронноеСообщениеИсходящее</content>
+  <content>aea65be8-37db-455d-9959-ba5a91325980</content>
+  <content>f0a49a62-5a53-4462-80da-48efb57df19a</content>
+  <content>7bf7bdf7-699c-4f2d-bc3d-8002a364fc78</content>
   <parentSubsystem>Subsystem.Настройки</parentSubsystem>
 </mdclass:Subsystem>
