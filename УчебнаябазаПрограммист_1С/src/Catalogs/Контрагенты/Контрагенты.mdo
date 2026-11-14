@@ -379,6 +379,15 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="fd7949ce-a80f-4c06-baaf-c71a37ebf6ca">
+    <name>ФормаЭлементаДЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента ДЗ</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <commands uuid="c3d989a9-d174-4ad2-a4be-d514aa999970">
     <name>Печать</name>
     <synonym>
